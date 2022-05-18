@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.header-top{
+    background: url(../img/watch.jpg) no-repeat center;
+    height: 90vh;
+}
+.arrowClock{
+    /* height: 250px; */
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.tabsContent, .tabsContentItem {
+    height: 100%;
+}
+.h {
+    width: 2px;
+    height: 48%;
+    position: absolute;
+}
+.h::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 35%;
+    background: rgb(59, 59, 59);
+    top: calc(55% - 35% + 6px);
+}
+.m {
+    width: 2px;
+    height: 50%;
+    position: absolute;
+}
+.m::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 45%;
+    background: rgb(59, 59, 59);
+    top: calc(10% + 6px);
+}
+.s {
+    width: 2px;
+    height: 50%;
+    position: absolute;
+}
+.s::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 65%;
+    background: rgb(59, 59, 59);
+    top: 6px;
+}
+.kun {
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+    position: relative;
+    padding-right: 75px;
+    
+}
+.kun::before, .kun::after {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: black;
+    display: block;
+    position: absolute;
+}
+
+.kun::after {
+    bottom: 13px;
+}
+.kunn, .oy, .yil {
+    padding: 10px 15px;
+    background: #fff;
+    color: black;
+    font-size: 25px;
+    margin: 0 10px;
+    border-radius: 6px;
+    height: 45px;
+}
+/* .shaxar {
+    display: flex;
+    justify-content: end;
+    padding-top: 15px;
+    padding-right: 75px;
+    
+}
+.shaxar::before, .shaxar::after {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: black;
+    display: block;
+    position: absolute;
+}
+.shaxar::after {
+    bottom: 13px;
+}
+.shaxarr {
+    padding: 10px 15px;
+    background: #fff;
+    color: black;
+    font-size: 25px;
+    margin: 0 10px;
+    border-radius: 6px;
+    height: 45px;
+}  */
+
+
+
+
